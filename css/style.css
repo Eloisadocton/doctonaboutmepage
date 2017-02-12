@@ -1,52 +1,111 @@
-
+body {
+margin: 0;
+}
  li {
    display: inline;
+   padding-bottom: 1%;
  }
+ul {
+  padding: 1%;
+  margin: 0;
+}
+.list {
+  padding-right: 5%;
+  padding-left: 5%;
+  background: rgb(255, 255, 255, .5);
+  position: static;
+}
 
 .list a {
-  color: black;
+  color: #6aaf10;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: white;
-  padding: 5px;
+  margin-left: 2%;;
   margin: 5px;
+  padding: 1.5%;
   float: right;
-  margin: 0 auto;
 }
 
 
 .list a:hover {
-  background-color: black;
+  background-color: #ff3366;
   color: white;
+  transition: 1s;
 }
 
-
-.info {
-  font-size: 19px;
-  font-family: monospace;
-  color: #262626;
-  background-color: white;
-  margin-top: 150px;
-  margin-right: 150px;
-  margin-bottom: 150px;
-  margin-left: 150px;
+.list img {
+  height: 50px;
 }
-
-
-.otherlinks {
-  background-color: #a2a2a2;
-  width: 100%;
-  height: 300px;
-  padding: 20px;
+.logo {
   margin: 0 auto;
 }
-
-
-.otherlinks a {
-  font-size: 19px;
-  font-family: monospace;
-  color: white;
-  text-decoration: none;
-  background-color: #a2a2a2;
-  position: static;
+.info {
+  background-image: url("../images/heroimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 800px;
+  padding-top: 10%;
+  padding-left: 2%;
 }
+h4 {
+  margin-top; 0;
+  display: block;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+h2 {
+  color: white;
+  font-size: .8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.blurb {
+  background-color:rgba(192,192,192,0.7);
+  width: 20%;
+  clear: both;
+  float: right;
+  padding: 3%;
+  margin-top: 15%;
+  margin-right: 7%;
+  margin-bottom: 15%;
+}
+
+.blurb-next {
+  background-color:rgba(192,192,192,0.7);
+  width: 20%;
+  clear: both;
+  float: left;
+  padding: 3%;
+  margin-top: 15%;
+  margin-left: 7%;
+  margin-bottom: 15%;
+}
+.juice {
+  background-color: #282828;
+  clear: both;
+  height: auto;
+  padding-left: 45%;
+  padding-right: 45%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.orange {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  }
+
+  .info-next {
+    background-image: url("../images/menu-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    padding-top: 10%;
+    padding-left: 2%;
+  }
