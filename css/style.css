@@ -25,17 +25,15 @@ ul {
   padding: 1.5%;
   float: right;
 }
-
-
 .list a:hover {
   background-color: #ff3366;
   color: white;
   transition: 1s;
 }
-
 .list img {
   height: 50px;
 }
+
 .logo {
   margin: 0 auto;
 }
@@ -48,14 +46,6 @@ ul {
   padding-top: 10%;
   padding-left: 2%;
 }
-h4 {
-  margin-top; 0;
-  display: block;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
 h2 {
   color: white;
   font-size: .8rem;
@@ -63,7 +53,6 @@ h2 {
   text-transform: uppercase;
   text-align: justify;
 }
-
 .blurb {
   background-color:rgba(192,192,192,0.7);
   width: 20%;
@@ -74,7 +63,6 @@ h2 {
   margin-right: 7%;
   margin-bottom: 15%;
 }
-
 .blurb-next {
   background-color:rgba(192,192,192,0.7);
   width: 20%;
@@ -98,14 +86,13 @@ h2 {
   width: 30px;
   height: 30px;
   margin: 0 auto;
-  }
-
-  .info-next {
-    background-image: url("../images/menu-image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 800px;
-    padding-top: 10%;
-    padding-left: 2%;
-  }
+}
+.info-next {
+  background-image: url("../images/menu-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 800px;
+  padding-top: 10%;
+  padding-left: 2%;
+}
